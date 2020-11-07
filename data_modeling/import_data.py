@@ -4,8 +4,7 @@ import math
 import psycopg2
 
 # Data Locations
-#json_data = 'C:\\Users\\erick\\OneDrive\\Git\\Datasets\\distros.json'
-json_data = '/home/erick/Downloads/distros.json'
+json_data = 'C:\\Users\\erick\\OneDrive\\Git\\Datasets\\distros.json'
 
 #Load JSON Files
 with open(json_data, 'r') as f:
